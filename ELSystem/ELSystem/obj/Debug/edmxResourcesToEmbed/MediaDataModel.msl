@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EmployeeModel1StoreContainer" CdmEntityContainer="EmployeeEntities1">
+    <EntitySetMapping Name="MediaTBs">
+      <EntityTypeMapping TypeName="EmployeeModel1.MediaTB">
+        <MappingFragment StoreEntitySet="MediaTB">
+          <ScalarProperty Name="VideoId" ColumnName="VideoId" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="poster" ColumnName="poster" />
+          <ScalarProperty Name="source" ColumnName="source" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
